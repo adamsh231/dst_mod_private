@@ -214,7 +214,7 @@ configuration_options = {
 						{description = "lvl 2", data = 2},
 						{description = "lvl 3", data = 3},
 					},
-		default = false,
+		default = 1,
 	},
 	------------------------------------------------
 
