@@ -1,7 +1,7 @@
 -- This information tells other players more about the mod
 name = "A Private Mod"
 author = "AdamSH"
-version = "1.0"
+version = "1.1"
 description = [[Misc Mod]]
 forumthread = "/"
 
