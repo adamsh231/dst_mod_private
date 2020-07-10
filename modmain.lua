@@ -124,7 +124,7 @@ if GetModConfigData("SUPER_MAXWELL") ~= 1 then
     if GetModConfigData("SUPER_MAXWELL") == 3 then
         TUNING.SHADOWWAXWELL_DAMAGE = base_dmg * 2
         TUNING.SHADOWWAXWELL_LIFE = TUNING.SHADOWWAXWELL_LIFE * 1000
-        TUNING.SHADOWWAXWELL_ATTACK_PERIOD = 0.2
+        TUNING.SHADOWWAXWELL_ATTACK_PERIOD = 0.1
     end
 end
 --------------------------------------------------------------------------------------------------------------------
