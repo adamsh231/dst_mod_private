@@ -218,6 +218,27 @@ configuration_options = {
 	},
 	------------------------------------------------
 
+	------------------ WIGFRID --------------------
+	{
+		name 	= "",
+		label 	= "Wigfrid",
+		options =	{
+						{description = "", data = 0},
+					},
+		default = 0,
+	},
+	{
+		name = "SUPER_WIGFRID",
+		label = "Super Wigfrid",
+		hover = "Modified Wigfrid",
+		options =	{
+						{description = "Off", data = false},
+						{description = "On", data = true},
+					},
+		default = false,
+	},
+	------------------------------------------------
+
 	------------------- GENERAL --------------------
 	{
 		name 	= "",

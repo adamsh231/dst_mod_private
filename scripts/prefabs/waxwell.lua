@@ -93,9 +93,11 @@ local function master_postinit(inst)
     if inst.components.petleash ~= nil then
         inst._OnSpawnPet = inst.components.petleash.onspawnfn
         inst._OnDespawnPet = inst.components.petleash.ondespawnfn
-        --------------------------------------
+
+        -------------------------------------------------------------------
         inst.components.petleash:SetMaxPets(TUNING.SHADOWWAXWELL_MAX_PET)
-        --------------------------------------
+        -------------------------------------------------------------------
+
     else
         inst:AddComponent("petleash")
         inst.components.petleash:SetMaxPets(4)

@@ -83,6 +83,7 @@ if GetModConfigData("SUPER_BERNIE") then
     TUNING.BERNIE_BIG_ATTACK_RANGE = 5
     TUNING.BERNIE_BIG_HIT_RANGE = 6
     TUNING.BERNIE_BIG_COOLDOWN = 1
+    TUNING.LIGHTER_FUEL = TUNING.LIGHTER_FUEL * 1000
 end
 --------------------------------------------------------------------------------------------------------------------
 
@@ -123,6 +124,13 @@ if GetModConfigData("SUPER_MAXWELL") ~= 1 then
         TUNING.SHADOWWAXWELL_LIFE = TUNING.SHADOWWAXWELL_LIFE * 1000
         TUNING.SHADOWWAXWELL_ATTACK_PERIOD = 0.1
     end
+end
+--------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------- WIGFRID ---------------------------------------------------------
+TUNING.WIGFRID_IS_DIET = true
+if GetModConfigData("SUPER_WIGFRID") then
+    TUNING.WIGFRID_IS_DIET = false
 end
 --------------------------------------------------------------------------------------------------------------------
 
@@ -170,5 +178,6 @@ if GetModConfigData("MISC") then
     TUNING.WARG_TARGETRANGE = TUNING.WARG_TARGETRANGE * 2
     TUNING.WARG_BASE_HOUND_AMOUNT = 5
     ------------------------------------------
+    TUNING.NIGHTSTICK_FUEL = TUNING.NIGHTSTICK_FUEL * 1000
 end
 --------------------------------------------------------------------------------------------------------------------
