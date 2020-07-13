@@ -180,5 +180,6 @@ if GetModConfigData("MISC") then
     TUNING.WARG_BASE_HOUND_AMOUNT = 5
     ------------------------------------------
     TUNING.NIGHTSTICK_FUEL = TUNING.NIGHTSTICK_FUEL * 1000
+    TUNING.BLUEAMULET_FUEL = TUNING.BLUEAMULET_FUEL * 1000
 end
 --------------------------------------------------------------------------------------------------------------------
